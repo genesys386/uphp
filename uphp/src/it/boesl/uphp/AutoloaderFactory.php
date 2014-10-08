@@ -30,7 +30,7 @@ abstract class AutoloaderFactory
             // if the file exists, require it
             if (file_exists($file)) {
                 require $file;
-            }    
-        }
-    }    
+            }
+        };
+    }
 }
